@@ -1,0 +1,292 @@
+:root{
+    --accent: #2a4a59;
+    --glass: rgba(255,255,255,0.4);
+    --text: #f6f6f6;
+}
+
+* {
+    box-sizing:  border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Colonna';
+    src: url('../fonts/Colonna.eot');
+    src: url('../fonts/Colonna.eot') format('embedded-opentype'),
+         url('../fonts/Colonna.woff2') format('woff2'),
+         url('../fonts/Colonna.woff') format('woff'),
+         url('../fonts/Colonna.ttf') format('truetype'),
+         url('../fonts/Colonna.svg#Colonna') format('svg');
+}
+
+@font-face {
+    font-family: 'Merry Christmas Flake';
+    src: url('../fonts/MerryChristmasFlake.eot');
+    src: url('../fonts/MerryChristmasFlake.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MerryChristmasFlake.woff2') format('woff2'),
+        url('../fonts/MerryChristmasFlake.woff') format('woff'),
+        url('../fonts/MerryChristmasFlake.ttf') format('truetype'),
+        url('../fonts/MerryChristmasFlake.svg#MerryChristmasFlake') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html,body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    color: var(--text);
+    background: #0b0b0b;
+    overflow-y: auto;
+}
+
+a {
+    color: #548296;
+}
+
+#bgVideo {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.6));
+    z-index: -1
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 1.2rem
+}
+
+.header h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'Merry Christmas Flake';
+    text-transform: none;
+    letter-spacing: 5px;
+    font-weight: normal;
+    font-size: 6rem;
+    z-index: 1;
+}
+
+.number {
+    font-family: "Colonna";
+}
+
+.subtitle {
+    opacity: 0.9;
+    display: none;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    max-width: 1400px;
+    margin: 0 auto 1rem;
+}
+
+li img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 1rem;
+    align-items: start;
+}
+
+
+.card {
+    perspective: 1000px;
+}
+
+.flip {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    transform-style: preserve-3d;
+    transition: transform .6s;
+    cursor: pointer;
+}
+
+.flip.locked {
+    cursor: default;
+    opacity: 0.85;
+}
+
+.face {
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.front {
+    background: linear-gradient(180deg, rgba(0,0,0,0.25), rgba(0,0,0,0.45));
+}
+
+.front img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: contrast(.95) saturate(1.05);
+}
+
+.front .dayBadge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: var(--glass);
+    padding: .25rem .5rem;
+    border-radius: 8px;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.front .gameTitle {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+    text-align: left;
+    padding: .4rem;
+    font-size: .85rem;
+    background: linear-gradient(180deg, rgba(0,0,0,0.0), rgba(0,0,0,0.45));
+}
+
+.back {
+    transform: rotateY(180deg);
+    background: linear-gradient(180deg,var(--accent),#060d15);
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem;
+}
+
+.back .rewardTitle {
+    font-weight: 800;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.back .rewardTitle::before {
+    content: "\f06b";
+    font-family: "Font Awesome 6 Free";
+    margin-right: 5px;
+}
+
+.back .rewardDesc {
+    font-size: .75rem;
+    opacity: 0.95;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.back .note {
+    font-size: .75rem;
+    opacity: 0.9;
+    margin-top: auto;
+}
+
+.card:not(.locked) .flip:hover,
+.card:not(.locked) .flip:focus-within,
+.card:not(.locked) .flip.is-flipped {
+    transform: rotateY(180deg);
+}
+
+
+.lockOverlay {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(transparent, rgba(0,0,0,0.4));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;font-size: 1rem;
+}
+
+.lockOverlay .pad {
+    background: rgba(0,0,0,0.45);
+    padding: .3rem .6rem;
+    border-radius: 15px;
+    margin: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .calendar {
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .calendar {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+    }
+
+    .flip {
+        padding-top: 66%;
+    }
+}
+
+.footer {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 15px;
+    width: 500px;
+}
+
+.card:focus-within {
+    outline: 3px solid rgba(255,255,255,0.06);
+    border-radius: 12px;
+}
+
+.small {
+    font-size: .85rem;
+    opacity: 0.95;
+}

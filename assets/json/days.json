@@ -1,0 +1,266 @@
+[
+    {
+        "day": 1, 
+        "title": "Récompenses chaîne", 
+        "image": "assets/images/day-1.png", 
+        "reward": 
+        {
+            "title": "Récompenses de chaine gratuites",
+            "desc": "Quasiment la totalité des récompenses de chaine sont gratuite temporairement.",
+            "note": "Uniquement ce jour"
+        }
+    },
+    {
+        "day": 2, 
+        "title": "Sticker personnalisé",
+        "image": "assets/images/day-2.png", 
+        "reward":
+        {
+            "title": "Sticker personnalisé",
+            "desc": "Sticker à afficher sur le stream via une commande personnelle à récupérer avec les points de chaine ce jour là.",
+            "note": "Commande permanente"
+        }
+    },
+    {
+        "day": 3, 
+        "title": "Commande personnalisée",
+        "image": "assets/images/day-3.png", 
+        "reward":
+        {
+            "title": "Commande personnalisée",
+            "desc": "Le viewer choisit une commande personnalisée qui peut être ; vidéo, gif, son... Pour situation de son choix.",
+            "note": "Uniquement ce jour"
+            }
+        },
+    {
+        "day": 4, 
+        "title": "Commande !stop",
+        "image": "assets/images/day-4.png", 
+        "reward":
+        {
+            "title": "Commande !stop",
+            "desc": "Commande spéciale pour la journée. Dès activation, le viewer interdit une action dans le jeu pendant 5 minutes.",
+            "note": "Uniquement ce jour"
+        }
+    },
+    {
+        "day": 5, 
+        "title": "Shoutout streamer",
+        "image": "assets/images/day-5.png", 
+        "reward":
+        {
+            "title": "Shoutout Party",
+            "desc": "Tous les viewers qui streament ont le droit à leur shoutout et présentation de chaine dès leur arrivée sur le stream.",
+            "note": "Doit être actif"
+        }
+    },
+    {
+        "day": 6, 
+        "title": "Emote pixel art",
+        "image": "assets/images/day-6.png", 
+        "reward":
+        {
+            "title": "Pixel art",
+            "desc": "Si obtention d'assez de points de chaine, je reproduis le logo de la chaine en pixel art que j'afficherai sur les streams en 2026.",
+            "note": "Défi communautaire"
+        }
+    },
+    {
+        "day": 7, 
+        "title": "Imitation RE",
+        "image": "assets/images/day-7.png", 
+        "reward":
+        {
+            "title": "Commande !imitation",
+            "desc": "Le viewer peut activer cette commande pour me demander d'imiter un son provenant du jeu en cours.",
+            "note": "Uniquement ce jour"
+        }
+    },
+    {
+        "day": 8, 
+        "title": "Décoration spéciale",
+        "image": "assets/images/day-8.png", 
+        "reward":
+        {
+            "title": "Décoration spéciale",
+            "desc": "Les viewers peuvent me donner des petits éléments pour les ajouter à l'overlay le jour même.",
+            "note": "Uniquement ce jour"
+        }
+    },
+    {
+        "day": 9, 
+        "title": "Giveaway challenge",
+        "image": "assets/images/day-9.png", 
+        "reward": 
+        {
+            "title": "Giveaway challenge",
+            "desc": "Giveaway organisé pour avoir le même privilège que les VIPs (challenge gratuit) sur tout le mois de janvier.",
+            "note": "Uniquement ce jour"
+        }
+    },
+    {
+        "day": 10, 
+        "title": "Défi communautaire",
+        "image": "assets/images/day-10.png", 
+        "reward":
+        {
+            "title": "Défi communautaire",
+            "desc": "Si obtention d'assez de points de chaine, je crée un petit overlay simpliste pour le stream de mon anniversaire.",
+            "note": "Pour le 4 janvier 2026"
+        }
+    },
+    {
+        "day": 11, 
+        "title": "Animation à choisir",
+        "image": "assets/images/day-11.png", 
+        "reward":
+        {
+            "title": "Commande !replique",
+            "desc": "Grâce a cette commande, je dois dire une réplique d'un personnage imposé venant de Resident Evil.",
+            "note": "Uniquement ce jour"
+        }
+    },
+    {
+        "day": 12, 
+        "title": "VIP",
+        "image": "assets/images/day-12.png", 
+        "reward":
+        {
+            "title": "Giveaway - VIP",
+            "desc": "Giveaway organisé pour obtenir le VIP d'un mois, avec tous ses privilèges. Sur le discord et twitch.",
+            "note": "Valable un mois"
+        }
+    },
+    {
+        "day": 13, 
+        "title": "Commande !fight",
+        "image": "assets/images/day-13.png", 
+        "reward":
+        {
+            "title": "Commande !fight",
+            "desc": "Grâce à cette commande, je me dois de tuer tous les monstres qui tombent sur mon passage pendant 2 minutes.",
+            "note": "Uniquement ce jour"
+        }
+    },
+    {
+        "day": 14, 
+        "title": "Défi communautaire",
+        "image": "assets/images/day-14.png", 
+        "reward":
+        {
+            "title": "Défi communautaire",
+            "desc": "Si obtention d'assez de points de chaine, je dessine un petit mog zombie, pour le mélange des deux licenses RE et FF.",
+            "note": "Hors live"
+        }
+    },
+    {
+        "day": 15, 
+        "title": "Badge Discord",
+        "image": "assets/images/day-15.png", 
+        "reward":
+        {
+            "title": "Lucky winner",
+            "desc": "Le gagnant du giveaway obtient un rang et badge spécial sur le discord pour l'année 2026, avec des privilèges.",
+            "note": "Année 2026"
+        }
+    },
+    {
+        "day": 16, 
+        "title": "Trivia FF/RE",
+        "image": "assets/images/day-16.png", 
+        "reward":
+        {
+            "title": "Trivia FF/RE",
+            "desc": "Petit quizz organisé pendant le stream, pour vous divertir un peu et tester vos connaissances des deux licenses.",
+            "note": "Uniquement ce jour"
+        }
+    },
+    {
+        "day": 17, 
+        "title": "Commande éphémère",
+        "image": "assets/images/day-17.png", 
+        "reward":
+        {
+            "title": "Commandes spéciales",
+            "desc": "Quelques commandes disponibles pour la journée, permettant aux viewers d'ajouter des éléments sur l'overlay.",
+            "note": "Uniquement ce jour"
+        }
+    },
+    {
+        "day": 18, 
+        "title": "Pick my build",
+        "image": "assets/images/day-18.png", 
+        "reward":
+        {
+            "title": "Pick my build",
+            "desc": "Une récompense de chaine permet au viewer de décider ce que j'ai le droit de ramasser ou non pendant 10 minutes.",
+            "note":"Uniquement ce jour"
+        }
+    },
+    {
+        "day": 19, 
+        "title": "Vote prochain mode annexe",
+        "image": "assets/images/day-18.png", 
+        "reward":
+        {
+            "title": "Prochain mode annexe",
+            "desc": "Un vote organisé pour choisir quel est le prochain mode annexe à streamer. (Mercenaires RE3, Mode Battle... etc.)",
+            "note": "Uniquement ce jour"
+        }
+    },
+    {
+        "day": 20, 
+        "title": "Lecture spéciale",
+        "image": "assets/images/day-15.png", 
+        "reward":
+        {
+            "title": "Commande !lecture",
+            "desc": "Les 5 prochains messages du chat sont lus comme si je lisais des documents dans un jeu.",
+            "note": "Uniquement ce jour"
+        }
+    },
+    {
+        "day": 21, 
+        "title": "Wallpaper 1080p",
+        "image": "assets/images/day-16.png", 
+        "reward":
+        {
+            "title": "Wallpaper offert",
+            "desc": "J'offre un fond d'écran fait par mes soins à tout ceux qui le désire, en utilisant la récompense de chaine.",
+            "note": "Uniquement ce jour"
+        }
+    },
+    {
+        "day": 22, 
+        "title": "Commande !noammo",
+        "image": "assets/images/day-22.png", 
+        "reward":
+        {
+            "title": "Commande !noammo",
+            "desc": "Interdiction de ramasser des munitions pendant 5 minutes avec la commande.",
+            "note": "Uniquement ce jour"
+        }
+    },
+    {
+        "day": 23, 
+        "title": "Commande exclusive",
+        "image": "assets/images/day-23.png", 
+        "reward":
+        {
+            "title": "Commandes spéciales",
+            "desc": "Les viewers peuvent activer des commandes spéciales pour me faire faire des actions négatives en jeu.",
+            "note": "Uniquement ce jour"
+        }
+    },
+    {
+        "day": 24, 
+        "title": "Grand Giveaway",
+        "image": "assets/images/day-23.png", 
+        "reward":
+        {
+            "title": "Grand giveaway",
+            "desc": "Gros giveaway organisé avec des jeux offerts. Les conditions sont restrintes.",
+            "note": "Uniquement ce jour"
+        }
+    }
+]
