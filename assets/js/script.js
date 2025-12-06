@@ -41,8 +41,27 @@ function renderCalendar(days){
     flip.dataset.day = day.day;
 
     const front = document.createElement('div'); front.className = 'face front';
-    const img = document.createElement('img'); img.src = day.image; img.alt = day.title;
-    front.appendChild(img);
+    
+    // Création de la balise <picture>
+    const picture = document.createElement('picture');
+
+    // Nom automatique : "day-X.png"
+    const imageName = `day-${day.day}.png`;
+
+    // Source mobile
+    const sourceMobile = document.createElement('source');
+    sourceMobile.media = '(max-width: 700px)';
+    sourceMobile.srcset = `assets/images/mobile/${imageName}`;
+    picture.appendChild(sourceMobile);
+
+    // Image desktop
+    const img = document.createElement('img');
+    img.src = `assets/images/desktop/${imageName}`;
+    img.alt = day.title;
+    picture.appendChild(img);
+
+    front.appendChild(picture);
+
     const badge = document.createElement('div'); badge.className = 'dayBadge'; badge.textContent = day.day;
     front.appendChild(badge);
 
