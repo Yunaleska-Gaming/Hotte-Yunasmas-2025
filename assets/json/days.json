@@ -78,12 +78,12 @@
     },
     {
         "day": 8, 
-        "title": "Décoration spéciale",
+        "title": "Retraite stratégique",
         "image": "assets/images/day-8.png", 
         "reward":
         {
-            "title": "Décoration spéciale",
-            "desc": "Les viewers peuvent me donner des petits éléments pour les ajouter à l'overlay le jour même.",
+            "title": "Retraite stratégique",
+            "desc": "Commande spéciale qui m'oblige à fuir le combat en cours.",
             "note": "Uniquement ce jour"
         }
     },
