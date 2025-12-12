@@ -111,34 +111,34 @@
     },
     {
         "day": 11, 
-        "title": "Animation à choisir",
-        "image": "assets/images/day-11.png", 
+        "title": "",
+        "image": "assets/images/offline.png", 
         "reward":
         {
-            "title": "Commande !replique",
-            "desc": "Grâce a cette commande, je dois dire une réplique d'un personnage imposé venant de Resident Evil.",
+            "title": "Offline",
+            "desc": "Aucune récompense.",
             "note": "Uniquement ce jour"
         }
     },
     {
         "day": 12, 
-        "title": "VIP",
+        "title": "No attack",
         "image": "assets/images/day-12.png", 
         "reward":
         {
-            "title": "Giveaway - VIP",
-            "desc": "Giveaway organisé pour obtenir le VIP d'un mois, avec tous ses privilèges. Sur le discord et twitch.",
-            "note": "Valable un mois"
+            "title": "Commande !NoAttack",
+            "desc": "Commande spéciale qui m'interdit de faire des attaques classiques pendant 10 minutes. ",
+            "note": "Uniquement ce jour"
         }
     },
     {
         "day": 13, 
-        "title": "Commande !fight",
+        "title": "Trivia FF/RE",
         "image": "assets/images/day-13.png", 
         "reward":
         {
-            "title": "Commande !fight",
-            "desc": "Grâce à cette commande, je me dois de tuer tous les monstres qui tombent sur mon passage pendant 2 minutes.",
+            "title": "Trivia FF/RE",
+            "desc": "Petit quizz organisé pendant le stream, pour vous divertir un peu et tester vos connaissances des deux licenses.",
             "note": "Uniquement ce jour"
         }
     },
