@@ -1,7 +1,6 @@
 [
     {
-        "day": 1, 
-        "title": "Récompenses chaîne", 
+        "day": 1,
         "image": "assets/images/day-1.png", 
         "reward": 
         {
@@ -11,8 +10,7 @@
         }
     },
     {
-        "day": 2, 
-        "title": "Sticker personnalisé",
+        "day": 2,
         "image": "assets/images/day-2.png", 
         "reward":
         {
@@ -22,8 +20,7 @@
         }
     },
     {
-        "day": 3, 
-        "title": "Commande personnalisée",
+        "day": 3,
         "image": "assets/images/day-3.png", 
         "reward":
         {
@@ -33,8 +30,7 @@
             }
         },
     {
-        "day": 4, 
-        "title": "Commande !stop",
+        "day": 4,
         "image": "assets/images/day-4.png", 
         "reward":
         {
@@ -44,8 +40,7 @@
         }
     },
     {
-        "day": 5, 
-        "title": "Shoutout streamer",
+        "day": 5,
         "image": "assets/images/day-5.png", 
         "reward":
         {
@@ -55,8 +50,7 @@
         }
     },
     {
-        "day": 6, 
-        "title": "Emote pixel art",
+        "day": 6,
         "image": "assets/images/day-6.png", 
         "reward":
         {
@@ -66,8 +60,7 @@
         }
     },
     {
-        "day": 7, 
-        "title": "Imitation RE",
+        "day": 7,
         "image": "assets/images/day-7.png", 
         "reward":
         {
@@ -77,8 +70,7 @@
         }
     },
     {
-        "day": 8, 
-        "title": "Retraite stratégique",
+        "day": 8,
         "image": "assets/images/day-8.png", 
         "reward":
         {
@@ -88,8 +80,7 @@
         }
     },
     {
-        "day": 9, 
-        "title": "Giveaway challenge",
+        "day": 9,
         "image": "assets/images/day-9.png", 
         "reward": 
         {
@@ -99,8 +90,7 @@
         }
     },
     {
-        "day": 10, 
-        "title": "Défi communautaire",
+        "day": 10,
         "image": "assets/images/day-10.png", 
         "reward":
         {
@@ -110,8 +100,7 @@
         }
     },
     {
-        "day": 11, 
-        "title": "",
+        "day": 11,
         "image": "assets/images/offline.png", 
         "reward":
         {
@@ -121,8 +110,7 @@
         }
     },
     {
-        "day": 12, 
-        "title": "No attack",
+        "day": 12,
         "image": "assets/images/day-12.png", 
         "reward":
         {
@@ -132,30 +120,27 @@
         }
     },
     {
-        "day": 13, 
-        "title": "Trivia FF/RE",
+        "day": 13,
         "image": "assets/images/day-13.png", 
         "reward":
         {
-            "title": "Trivia FF/RE",
-            "desc": "Petit quizz organisé pendant le stream, pour vous divertir un peu et tester vos connaissances des deux licenses.",
+            "title": "Commande !tonfa",
+            "desc": "Avec la commande spéciale !tonfa, je dois faire le prochain combat à la tonfa. Hors boss.",
             "note": "Uniquement ce jour"
         }
     },
     {
-        "day": 14, 
-        "title": "Défi communautaire",
+        "day": 14,
         "image": "assets/images/day-14.png", 
         "reward":
         {
-            "title": "Défi communautaire",
+            "title": "Mix FF/RE",
             "desc": "Si obtention d'assez de points de chaine, je dessine un petit mog zombie, pour le mélange des deux licenses RE et FF.",
             "note": "Hors live"
         }
     },
     {
-        "day": 15, 
-        "title": "Badge Discord",
+        "day": 15,
         "image": "assets/images/day-15.png", 
         "reward":
         {
@@ -165,30 +150,27 @@
         }
     },
     {
-        "day": 16, 
-        "title": "Trivia FF/RE",
+        "day": 16,
         "image": "assets/images/day-16.png", 
         "reward":
         {
-            "title": "Trivia FF/RE",
-            "desc": "Petit quizz organisé pendant le stream, pour vous divertir un peu et tester vos connaissances des deux licenses.",
+            "title": "Commande !nokills",
+            "desc": "Je dois faire le niveau sans tuer d'ennemis.",
             "note": "Uniquement ce jour"
         }
     },
     {
-        "day": 17, 
-        "title": "Commande éphémère",
+        "day": 17,
         "image": "assets/images/day-17.png", 
         "reward":
         {
-            "title": "Commandes spéciales",
-            "desc": "Quelques commandes disponibles pour la journée, permettant aux viewers d'ajouter des éléments sur l'overlay.",
+            "title": "Commandes !challenges",
+            "desc": "Possibilités de me donner des challenges et malus pendant la run de Tomb Raider.",
             "note": "Uniquement ce jour"
         }
     },
     {
-        "day": 18, 
-        "title": "Pick my build",
+        "day": 18,
         "image": "assets/images/day-18.png", 
         "reward":
         {
@@ -198,8 +180,7 @@
         }
     },
     {
-        "day": 19, 
-        "title": "Vote prochain mode annexe",
+        "day": 19,
         "image": "assets/images/day-18.png", 
         "reward":
         {
@@ -209,8 +190,7 @@
         }
     },
     {
-        "day": 20, 
-        "title": "Lecture spéciale",
+        "day": 20,
         "image": "assets/images/day-15.png", 
         "reward":
         {
@@ -220,8 +200,7 @@
         }
     },
     {
-        "day": 21, 
-        "title": "Wallpaper 1080p",
+        "day": 21,
         "image": "assets/images/day-16.png", 
         "reward":
         {
@@ -231,8 +210,7 @@
         }
     },
     {
-        "day": 22, 
-        "title": "Commande !noammo",
+        "day": 22,
         "image": "assets/images/day-22.png", 
         "reward":
         {
@@ -242,8 +220,7 @@
         }
     },
     {
-        "day": 23, 
-        "title": "Commande exclusive",
+        "day": 23,
         "image": "assets/images/day-23.png", 
         "reward":
         {
@@ -253,8 +230,7 @@
         }
     },
     {
-        "day": 24, 
-        "title": "Grand Giveaway",
+        "day": 24,
         "image": "assets/images/day-23.png", 
         "reward":
         {
