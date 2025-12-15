@@ -134,9 +134,9 @@
         "image": "assets/images/day-14.png", 
         "reward":
         {
-            "title": "Mix FF/RE",
-            "desc": "Si obtention d'assez de points de chaine, je dessine un petit mog zombie, pour le mélange des deux licenses RE et FF.",
-            "note": "Hors live"
+            "title": "Offline",
+            "desc": "Aucune récompense.",
+            "note": "Uniquement ce jour"
         }
     },
     {
@@ -144,9 +144,9 @@
         "image": "assets/images/day-15.png", 
         "reward":
         {
-            "title": "Lucky winner",
-            "desc": "Le gagnant du giveaway obtient un rang et badge spécial sur le discord pour l'année 2026, avec des privilèges.",
-            "note": "Année 2026"
+            "title": "Mix FF/RE",
+            "desc": "Si obtention d'assez de points de chaine, je dessine un petit mog zombie, pour le mélange des deux licenses RE et FF.",
+            "note": "Hors Live"
         }
     },
     {
@@ -154,8 +154,8 @@
         "image": "assets/images/day-16.png", 
         "reward":
         {
-            "title": "Commande !nokills",
-            "desc": "Je dois faire le niveau sans tuer d'ennemis.",
+            "title": "Lucky Winner",
+            "desc": "Le gagnant du giveaway obtient un rang et badge spécial sur le discord pour l'année 2026, avec des privilèges.",
             "note": "Uniquement ce jour"
         }
     },
@@ -174,8 +174,8 @@
         "image": "assets/images/day-18.png", 
         "reward":
         {
-            "title": "Pick my build",
-            "desc": "Une récompense de chaine permet au viewer de décider ce que j'ai le droit de ramasser ou non pendant 10 minutes.",
+            "title": "Commande !NoKills",
+            "desc": "Je dois faire le niveau entier sans tuer d'ennemis.",
             "note":"Uniquement ce jour"
         }
     },
@@ -204,8 +204,8 @@
         "image": "assets/images/day-16.png", 
         "reward":
         {
-            "title": "Wallpaper offert",
-            "desc": "J'offre un fond d'écran fait par mes soins à tout ceux qui le désire, en utilisant la récompense de chaine.",
+            "title": "Pick my build",
+            "desc": "Pendant 5 minutes, la personne qui a trigger la commande !pick choisi ce que je dois ramasser ou non.",
             "note": "Uniquement ce jour"
         }
     },
