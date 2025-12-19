@@ -194,8 +194,8 @@
         "image": "assets/images/day-15.png", 
         "reward":
         {
-            "title": "Commande !lecture",
-            "desc": "Les 5 prochains messages du chat sont lus comme si je lisais des documents dans un jeu.",
+            "title": "Commande !pick",
+            "desc": "La personne qui trigger cette commande doit m'interdire de prendre entre 1 et 3 éléments (munitions, soins, etc.) pendant 5 minutes. ",
             "note": "Uniquement ce jour"
         }
     },
@@ -204,8 +204,8 @@
         "image": "assets/images/day-16.png", 
         "reward":
         {
-            "title": "Pick my build",
-            "desc": "Pendant 5 minutes, la personne qui a trigger la commande !pick choisi ce que je dois ramasser ou non.",
+            "title": "Mode Extra",
+            "desc": "Un vote organisé pour choisir quel est le prochain mode annexe à streamer. (Mercenaires RE3, Mode Battle... etc.)",
             "note": "Uniquement ce jour"
         }
     },
@@ -214,8 +214,8 @@
         "image": "assets/images/day-22.png", 
         "reward":
         {
-            "title": "Mode Extra",
-            "desc": "Un vote organisé pour choisir quel est le prochain mode annexe à streamer. (Mercenaires RE3, Mode Battle... etc.)",
+            "title": "Commande !sorry",
+            "desc": "Les viewers peuvent activer cette commande pour me dire de mourir volontairement, de jeter des éléments de mon inventaire ou autre.",
             "note": "Uniquement ce jour"
         }
     },
@@ -224,8 +224,8 @@
         "image": "assets/images/day-23.png", 
         "reward":
         {
-            "title": "Commandes spéciales",
-            "desc": "Les viewers peuvent activer des commandes spéciales pour me faire faire des actions négatives en jeu.",
+            "title": "N/A",
+            "desc": "N/A",
             "note": "Uniquement ce jour"
         }
     },
@@ -235,7 +235,7 @@
         "reward":
         {
             "title": "Grand giveaway",
-            "desc": "Gros giveaway organisé avec des jeux offerts. Les conditions sont restrintes.",
+            "desc": "Gros giveaway organisé avec des jeux offerts. Les conditions sont restreintes.",
             "note": "Uniquement ce jour"
         }
     }
