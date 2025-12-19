@@ -174,9 +174,9 @@
         "image": "assets/images/day-18.png", 
         "reward":
         {
-            "title": "Commande !NoKills",
-            "desc": "Je dois faire le niveau entier sans tuer d'ennemis.",
-            "note":"Uniquement ce jour"
+            "title": "Offline",
+            "desc": "Aucune récompense.",
+            "note": "Uniquement ce jour"
         }
     },
     {
@@ -184,8 +184,8 @@
         "image": "assets/images/day-18.png", 
         "reward":
         {
-            "title": "Prochain mode annexe",
-            "desc": "Un vote organisé pour choisir quel est le prochain mode annexe à streamer. (Mercenaires RE3, Mode Battle... etc.)",
+            "title": "Commande !pacifiste",
+            "desc": "Je dois faire un niveau entier sans tuer d'ennemis.",
             "note": "Uniquement ce jour"
         }
     },
@@ -214,8 +214,8 @@
         "image": "assets/images/day-22.png", 
         "reward":
         {
-            "title": "Commande !noammo",
-            "desc": "Interdiction de ramasser des munitions pendant 5 minutes avec la commande.",
+            "title": "Mode Extra",
+            "desc": "Un vote organisé pour choisir quel est le prochain mode annexe à streamer. (Mercenaires RE3, Mode Battle... etc.)",
             "note": "Uniquement ce jour"
         }
     },
