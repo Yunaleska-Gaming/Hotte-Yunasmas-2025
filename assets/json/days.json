@@ -214,8 +214,8 @@
         "image": "assets/images/day-22.png", 
         "reward":
         {
-            "title": "Commande !sorry",
-            "desc": "Les viewers peuvent activer cette commande pour me dire de mourir volontairement, de jeter des éléments de mon inventaire ou autre.",
+            "title": "Giveaway",
+            "desc": "10€ sur steam ou playstation sont offerts au gagnant du giveaway.",
             "note": "Uniquement ce jour"
         }
     },
@@ -224,8 +224,8 @@
         "image": "assets/images/day-23.png", 
         "reward":
         {
-            "title": "N/A",
-            "desc": "N/A",
+            "title": "Offline",
+            "desc": "Aucune récompense.",
             "note": "Uniquement ce jour"
         }
     },
@@ -234,8 +234,8 @@
         "image": "assets/images/day-23.png", 
         "reward":
         {
-            "title": "Grand giveaway",
-            "desc": "Gros giveaway organisé avec des jeux offerts. Les conditions sont restreintes.",
+            "title": "Offline",
+            "desc": "Aucune récompense.",
             "note": "Uniquement ce jour"
         }
     }
